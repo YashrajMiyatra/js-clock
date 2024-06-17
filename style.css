@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Fype';
+    src: url('asset/fype.otf');
+}
+body {
+    background-image: url('asset/Blackhole.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Fype';
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.section{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+#time {
+    font-size: 90px;
+}
+#date{
+    font-size: 30px;
+}
